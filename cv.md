@@ -27,7 +27,8 @@ I believe that I will cope with all the difficulties of learning JavaScript prog
 - Courses: RS School JavaScript Stage 0
 - Example of code
 ## Code
-``const words = {
+```
+const words = {
   randomBodyParts: "legs,tongue,eyes,lips".split(","),
   randomAdverb: "like,as".split(","),
   randomAdjectives: "little,old,big,small,happy".split(","),
@@ -37,7 +38,8 @@ const getRandomIndex = (array) => Math.floor(Math.random() * array.length);
 const message = Object.keys(words)
   .map((key) => words[key][getRandomIndex(words[key])])
   .join(" ");
-console.log(`You have ${message}`);``
+console.log(`You have ${message}`);
+```
 ## Languages
 - Russian - Native
 - Belarusian - Native

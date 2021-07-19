@@ -1,0 +1,143 @@
+@media screen and (max-width: 750px) {
+  .main-avatar {
+    width: 150px;
+    border-radius: 50%;
+    border: 3px solid #ddd;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.6);
+  }
+
+  summary {
+    width: 118px;
+    padding-left: 20px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .main-avatar {
+    width: 200px;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+  }
+
+  summary {
+    width: 185px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: #eee;
+}
+
+a {
+  color: white;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+.main-container {
+  text-align: center;
+}
+
+.main-avatar-container {
+  padding: 20px;
+  background-color: teal;
+}
+
+.main-contacts {
+  text-align: left;
+}
+
+.main-text {
+  padding: 20px;
+  text-align: left;
+}
+
+.main-avatar-container details {
+  margin-top: 20px;
+  display: flex;
+  padding: 10px;
+  background-color: azure;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  font-weight: normal;
+}
+
+.main-paper {
+  min-width: 320px;
+  max-width: 1000px;
+  width: 100%;
+  display: inline-flex;
+}
+
+pre {
+  padding: 10px;
+  position: absolute;
+  background-color: azure;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  font-size: 16px;
+  margin: 0;
+  background-color: darkslategrey;
+  color: white;
+  padding: 10px;
+  border-radius: 2px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+.main-paper-content {
+  display: flex;
+  width: 100%;
+  margin: 20px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+header {
+  display: flex;
+  font-size: 12px;
+  justify-content: center;
+  align-items: center;
+  height: 53px;
+  background-color: #333;
+  color: white;
+}
+
+footer {
+  display: flex;
+  font-size: 12px;
+  justify-content: center;
+  align-items: center;
+  height: 53px;
+  background-color: #333;
+  color: white;
+}
+
+.footer-year,
+.footer-name {
+  margin-right: 20px;
+}
+
+.footer-link-to-school {
+  display: flex;
+  align-items: center;
+}
+
+.footer-logo {
+  background-color: white;
+  padding: 3px;
+  margin-right: 20px;
+}

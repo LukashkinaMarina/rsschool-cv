@@ -2,7 +2,7 @@
 
 ## Contacts
 - Email: Lukaskinamarina1@gmail.com
-- Phone: +375(29)522-04-93
+- Phone: +375(25)522-04-93
 - Discord: marina_lukashkina(@LukashkinaMarina)
 
 ## About Me
@@ -33,17 +33,18 @@ I believe that I will cope with all the difficulties of learning JavaScript prog
 
 ## Code
 ```
-const words = {
-  randomBodyParts: "legs,tongue,eyes,lips".split(","),
-  randomAdverb: "like,as".split(","),
-  randomAdjectives: "little,old,big,small,happy".split(","),
-  randomWords: "elephant, hamster,tree,monkey,rat,dog".split(","),
-};
-const getRandomIndex = (array) => Math.floor(Math.random() * array.length);
-const message = Object.keys(words)
-  .map((key) => words[key][getRandomIndex(words[key])])
-  .join(" ");
-console.log(`You have ${message}`);
+function rgb(r, g, b){
+  const toHex = (byte) => {
+    if (byte <= 0) return '00';
+    if (byte >= 255) return 'FF';
+    const hex = byte.toString(16);
+    if(hex.length === 1) {
+      return '0' + hex;
+    }
+    return hex;
+  }
+  return `${toHex(r)}${toHex(g)}${toHex(b)}`.toUpperCase();
+}
 ```
 
 ## Languages

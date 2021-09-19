@@ -75,7 +75,6 @@ body {
   padding: 0;
   font-family: Helvetica, Arial, sans-serif;
   background-color: #eee;
-  min-width: 320px;
 }
 
 a {
@@ -141,7 +140,7 @@ h1 {
 
 
 .main-paper {
-  min-width: 318px;
+  min-width: 280px;
   max-width: 1000px;
   width: 100%;
   display: inline-flex;
@@ -267,6 +266,7 @@ footer nav a {
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 
 .footer-info a {

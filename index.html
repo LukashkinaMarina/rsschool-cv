@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Marina Lukashkina's CV</title>
+  <link rel="stylesheet" href="styles/style.css" />
+</head>
+<header>
+  <h1>Marina Lukashkina - Front-end developer</h1>
+  <nav>
+    <ul>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#soft-skills">Soft Skills</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#example-code">Example of code</a></li>
+      <li><a href="#languages">Languages</a></li>
+    </ul>
+  </nav>
+</header>
+<main>
+  <div class="main-container">
+    <div class="main-paper">
+      <div class="main-paper-content">
+        <div class="main-avatar-container">
+          <img class="main-avatar" src="images/main_avatar.jpg" alt="Marina Lukashkina" />
+          <div class="main-contacts">
+            <details>
+              <summary>Contacts</summary>
+              <ul>
+                <li><strong>Email: </strong>Lukaskinamarina1@gmail.com</li>
+                <li><strong>Phone: </strong>+375(25)522-04-93</li>
+                <li>
+                  <strong>Discord: </strong>marina_lukashkina(@LukashkinaMarina)
+                </li>
+              </ul>
+            </details>
+          </div>
+        </div>
+        <div class="main-text">
+          <section id="about">
+            <h2>About Me</h2>
+            <p>
+              I am a self-motivated student and aspiring programmer. I try to
+              understand learning material and do all tasks including extra
+              tasks.
+            </p>
+            <p>
+              I believe that I will cope with all the difficulties of learning
+              JavaScript programming language and will be a high-class
+              Front-end developer in the future.
+            </p>
+          </section>
+          <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+              <li><span>JavaScript - beginner</span></li>
+              <li><span>HTML5 - beginner</span></li>
+              <li><span>CSS - beginner</span></li>
+              <li><span>GIT - beginner</span></li>
+              <li><span>Visual Studio Code - beginner</span></li>
+            </ul>
+          </section>
+          <section id="soft-skills">
+            <h2>Soft Skills</h2>
+            <ul>
+              <li><span>Problem-solving</span></li>
+              <li><span>Effective communication skills</span></li>
+              <li><span>Self-direction</span></li>
+              <li><span>Leadership</span></li>
+              <li><span>Flexibility</span></li>
+            </ul>
+          </section>
+          <section id="education">
+            <h2>Education</h2>
+            <ul>
+              <li><span>Gomel State Vocational College - Designer</span></li>
+              <li><span>Gomel State University - Psychologist(3 years)</span></li>
+              <li><span>Books: JavaScript for beginners, O'Reilly JavaScript</span></li>
+              <li><span>Courses: RS School JavaScript Stage 0</span></li>
+            </ul>
+          </section>
+          <section id="example-code">
+            <h2>Example of code</h2>
+            <div style="height: 20px"></div>
+            <h3>Projects</h3>
+            <ul class="projects">
+              <li><span>
+                  <a href="https://github.com/LukashkinaMarina/human-readable-number/blob/master/src/index.js"
+                    target="_blank">Human readable number</a></span>
+              </li>
+              <li><span>
+                  <a href="https://github.com/LukashkinaMarina/sudoku/blob/master/src/index.js"
+                    target="_blank">Sudoku</a>
+                </span>
+              </li>
+              <li><span>
+                  <a href="https://github.com/LukashkinaMarina/expression-calculator/blob/master/src/index.js"
+                    target="_blank">
+                    Expression calculator</a>
+                </span>
+              </li>
+            </ul>
+            <details>
+              <summary>Code</summary>
+              <div class="code-container">
+                <pre>
+                  <code>
+<span class ="keyword-name">function</span> <span class="function-name">rgb</span>(<span class ="parameter-name">r, g, b</span>) {
+  <span class ="keyword-name"> const</span> <span class="function-name">toHex</span>  = (<span class ="parameter-name">byte</span>) <span class ="keyword-name">=></span>{
+    <span class ="operator-name">if</span> (<span class ="parameter-name">byte</span> &lt;= 0) <span class ="operator-name">return</span> <span class ="meaning-name">'00'</span>;
+    <span class ="operator-name">if</span> (<span class ="parameter-name">byte</span> >= 255)<span class ="operator-name"> return</span> <span class ="meaning-name">'FF'</span>;
+    <span class ="keyword-name"> const</span> <span class ="constant-name">hex</span> = <span class ="parameter-name">byte</span>.<span class="function-name">toString</span>(16);
+    <span class ="operator-name">if</span> (<span class ="constant-name">hex</span>.<span class ="parameter-name">length</span> === 1) {
+      <span class ="operator-name">return</span> <span class ="meaning-name">'0'</span> + <span class ="constant-name">hex</span>;
+    }
+    <span class ="operator-name">return</span> <span class ="constant-name">hex</span>;
+  }
+  <span class ="operator-name">return</span> `<span class ="keyword-name">${</span><span class="function-name">toHex</span>(<span class ="parameter-name">r</span>)<span class ="keyword-name">}${</span><span class="function-name">toHex</span>(<span class ="parameter-name">g</span>)<span class ="keyword-name">}${</span><span class="function-name">toHex</span>(<span class="parameter-name">b</span>)<span class ="keyword-name">}</span>`.<span class="function-name">toUpperCase</span>();
+}
+              </code>
+              </pre>
+              </div>
+            </details>
+            <div style="height: 20px"></div>
+          </section>
+          <section id="languages">
+            <h2>Languages</h2>
+            <ul>
+              <li><span>Russian - Native</span></li>
+              <li><span>Belarusian - Native</span></li>
+              <li><span>English - A2</span></li>
+              <li><span>German - A2</span></li>
+            </ul>
+          </section>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+<footer>
+  <nav>
+    <ul>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#soft-skills">Soft Skills</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#example-code">Example of code</a></li>
+      <li><a href="#languages">Languages</a></li>
+    </ul>
+  </nav>
+  <div class="footer-info">
+    <div class="footer-year">© 2021</div>
+    <div class="footer-name">
+      <a href="https://github.com/LukashkinaMarina" target="_blank" title="Marina Lukashkina's github repository">
+        Marina Lukashkina
+      </a>
+    </div>
+    <a class="footer-link-to-school" href="https://rs.school/js/" target="_blank"
+      title="Click link to open Rolling Scopes School website"><img class="footer-logo" src="images/rs-school-js.svg"
+        alt="Rolling Scopes School Logo" width="83" height="30" />Rolling Scopes School
+    </a>
+  </div>
+</footer>
+
+</html>

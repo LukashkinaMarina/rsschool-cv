@@ -1,0 +1,302 @@
+@media screen and (max-width: 750px) {
+  .main-avatar {
+    width: 150px;
+    border: 3px solid #6B6F69;
+  }
+
+  summary {
+    width: 118px;
+    padding-left: 20px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .main-avatar {
+    width: 200px;
+    border: 2px solid #6B6F69;
+  }
+
+  summary {
+    width: 185px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .main-avatar-container details {
+    width: 217px !important;
+    font-size: 10px;
+  }
+
+  .main-paper-content {
+    width: 100%;
+    margin: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  }
+
+  .main-avatar-container {
+    padding: 20px;
+    height: 220px;
+    background-color: #B0E0E6;
+  }
+}
+
+@media screen and (min-width: 430px) {
+  .main-paper-content {
+    display: flex;
+    width: 100%;
+    margin: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  }
+}
+
+
+.main-avatar-container {
+  padding: 20px;
+  background-color: #6B6F69;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: #eee;
+}
+
+a {
+  color: black;
+  padding: 10px;
+}
+
+nav a:hover {
+  background-color: #D3D3D3;
+  border-radius: 15px;
+  transition: 0.5s;
+
+}
+
+nav li {
+  list-style-type: none;
+  display: inline;
+}
+
+nav a:not(:hover) {
+  transition: 0.5s;
+}
+
+h2 a {
+  color: white;
+}
+
+h1 {
+  display: flex;
+  font-size: 16px;
+  background-color: #0A0A09;
+  color: white;
+  width: 100%;
+  height: 40px;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container {
+  text-align: center;
+}
+
+.main-contacts {
+  text-align: left;
+}
+
+.main-text {
+  padding: 20px;
+  text-align: left;
+}
+
+.main-avatar-container details {
+  margin-top: 20px;
+  display: flex;
+  padding: 10px;
+  background-color: #CCC999;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  font-weight: normal;
+  position: absolute;
+
+}
+
+
+.main-paper {
+  min-width: 280px;
+  max-width: 1000px;
+  width: 100%;
+  display: inline-flex;
+}
+
+pre {
+  padding: 10px;
+  position: absolute;
+  background-color: black;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  color: white;
+}
+
+.keyword-name {
+  color: #4682B4;
+}
+
+.function-name {
+  color: #F4A460;
+}
+
+.parameter-name {
+  color: #00FFF4;
+}
+
+#skills li {
+  color: #C3BEA1;
+}
+
+#skills li span {
+  color: black;
+}
+
+#soft-skills li {
+  color: #C3BEA1;
+}
+
+#soft-skills li span {
+  color: black;
+}
+
+#education li {
+  color: #C3BEA1;
+}
+
+#education li span {
+  color: black;
+}
+
+#languages li {
+  color: #C3BEA1;
+}
+
+#languages li span {
+  color: black;
+}
+
+h2 {
+  font-size: 14px;
+  margin: 0;
+  background-color: #C3BEA1;
+  color: black;
+  padding: 10px;
+  border-radius: 2px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  text-transform: uppercase;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav {
+  margin-top: 20px;
+}
+
+nav a {
+  margin: 10px;
+  font-size: 12px;
+  color: black;
+  white-space: nowrap;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  justify-content: center;
+  line-height: 32px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  justify-content: center;
+  align-items: center;
+  background-color: #0A0A09;
+  color: white;
+}
+
+footer nav a {
+  color: white;
+}
+
+.projects li a {
+  color: #000;
+}
+
+.projects li span {
+  color: white;
+}
+
+.projects li {
+  color: #C3BEA1;
+}
+
+
+.footer-info {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.footer-info a {
+  color: white;
+}
+
+.operator-name {
+  color: #C71585;
+}
+
+.meaning-name {
+  color: #D2691E;
+}
+
+.constant-name {
+  color: #6495ED;
+}
+
+.footer-year,
+.footer-name {
+  margin-right: 20px;
+}
+
+.footer-logo {
+  background-color: white;
+  padding: 3px;
+  margin-right: 20px;
+}
+
+.footer-link-to-school {
+  display: flex;
+  align-items: center;
+}

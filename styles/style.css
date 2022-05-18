@@ -1,0 +1,415 @@
+@media screen and (max-width: 53rem) {
+  summary {
+    width: 13rem;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #000;
+    text-align: center;
+  }
+
+
+  .main-avatar-container-all {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 100vmax;
+    background-color: #1e1e1e;
+  }
+
+  .main-avatar {
+    width: 23rem;
+    margin: 0;
+  }
+
+  nav a {
+    font-size: 1rem;
+    line-height: 2rem;
+    margin: 0.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+  }
+
+  #education {
+    display: flex;
+    flex-direction: row;
+    width: 100vmax;
+    height: 35rem;
+    background-color: #1d1d1b;
+  }
+
+}
+
+@media screen and (min-width: 53rem) {
+  summary {
+    width: 13rem;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #000;
+    text-align: center;
+  }
+
+  .main-avatar-container-all {
+    display: flex;
+    justify-content: center;
+    width: 100vmax;
+    background-color: #1e1e1e;
+  }
+
+  .main-avatar {
+    width: 28rem;
+    height: 100%;
+  }
+
+  nav a {
+    font-size: 1.3rem;
+    line-height: 2rem;
+    margin: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+  }
+
+  #education {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vmax;
+    height: 35rem;
+    background-color: #1d1d1b;
+  }
+
+}
+
+html {
+  font-size: 14px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: #eee;
+}
+
+header {
+  font-size: 2rem;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+  justify-content: center;
+  align-items: center;
+  background-color: #0A0A09;
+  color: white;
+}
+
+h1 {
+  font-size: 3rem;
+  letter-spacing: 0.5rem;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  color: #fff;
+}
+
+h2 {
+  font-size: 2.5rem;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  color: #006400;
+  font-weight: bold;
+}
+
+
+h3 {
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+  letter-spacing: 0.5rem;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  color: white;
+  background-color: #006400;
+}
+
+h4 {
+  text-align: center;
+  font-size: 1.2rem;
+  letter-spacing: 0.5rem;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  color: white;
+}
+
+a {
+  color: black;
+}
+
+section {
+  margin: 1rem;
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+  width: 100vmax;
+  background-color: #1e1e1e;
+}
+
+
+nav li {
+  display: inline;
+  list-style-type: none;
+}
+
+nav a:hover {
+  border-radius: 0.8rem;
+  transition: 0.5s;
+  background-color: #006400;
+}
+
+nav a:not(:hover) {
+  transition: 0.5s;
+}
+
+#about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 30rem;
+}
+
+#about h2 {
+  margin: 3rem;
+}
+
+#about .main-contacts {
+  margin: 2rem;
+}
+
+#skills {
+  display: flex;
+  justify-content: center;
+  width: 100vmax;
+  height: 20rem;
+  background-color: #1e1e1e;
+  color: #fff;
+}
+
+#languages {
+  width: 100vmax;
+  height: 30rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#skills h2 {
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+#soft-skills {
+  display: flex;
+}
+
+#soft-skills h2 {
+  display: flex;
+  align-items: center;
+}
+
+#soft-skills ul {
+  font-size: 2rem;
+}
+
+#soft-skills #skills p,
+#skills div {
+  color: #fff;
+}
+
+#example-code {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vmax;
+  height: 30rem;
+}
+
+#projects {
+  width: 100vmax;
+  height: 30rem;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 5rem;
+  background-color: #1e1e1e;
+}
+
+.language {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+.chart {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-evenly;
+  width: 29rem;
+  height: 17rem;
+}
+
+.main-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.education-title {
+  color: #eee;
+}
+
+.languages-title {
+  margin: 4rem;
+}
+
+.chart div {
+  text-align: center;
+  width: 4rem;
+  font-size: 1.3rem;
+  font-weight: 42rem;
+  color: #0A0A09;
+}
+
+.chart p {
+  margin-top: -1.5rem;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+#about p {
+  font-size: 1.5rem;
+  width: 50rem;
+  margin: 0;
+}
+
+.certificate {
+  width: 38rem;
+  margin: auto 2rem;
+}
+
+.codewars-title {
+  color: #006400;
+}
+
+.code {
+  font-size: 6rem;
+  margin: 3rem;
+}
+
+.projects-title {
+  color: #eee;
+}
+
+.chart div div {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  bottom: -1rem;
+  font-size: 0.8rem;
+  height: 100%;
+}
+
+.column1 {
+  height: 90%;
+  background-color: #409940;
+}
+
+.languages-level {
+  width: 8rem;
+  height: 5rem;
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+  background-color: #006400;
+  color: #eee;
+}
+
+
+.column2 {
+  height: 80%;
+  background-color: #229c96;
+}
+
+.column3 {
+  height: 90%;
+  background-color: #2795a5;
+}
+
+.column4 {
+  height: 80%;
+  background-color: #a799d6;
+}
+
+.column5 {
+  height: 70%;
+  background-color: #d583d0;
+}
+
+.column6 {
+  height: 80%;
+  background-color: #db82b0;
+}
+
+.project-img {
+  color: white;
+  height: 15rem;
+  width: 25rem;
+}
+
+a {
+  color: white;
+}
+
+
+
+.museum-content {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 5rem;
+}
+
+.art-quiz-content {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 5rem;
+}
+
+.christmas-task {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 5rem;
+}
+
+.rs-lang a {
+  display: flex;
+  align-items: center;
+  color: black;
+  font-size: 5rem;
+}
+
+.libraries li {
+  font-size: 3rem;
+}
